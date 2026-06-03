@@ -221,3 +221,78 @@
 //     }
 //     return 0;
 // }
+
+// Q - How to find the reminder in c.
+
+//#include<stdio.h>
+//int main()
+//{
+//   int a,b;
+//    printf("Enter Divident : ");
+//    scanf("%d",&a);
+//    printf("Enter Divisor : ");
+//    scanf("%d",&b);
+// With formula 
+// int q = a/b;
+// int r = a - (b*q);      //Divisor * Quotient + Reminder = Divident
+// printf("The Remainder when %d is divided by %d is : %d ",a,b,r);
+
+// Without formula with [Modulo Operator:- (%)]
+//    int r = a % b;
+//    printf("The Remainder when %d is divided by %d is : %d ",a,b,r);
+//    return 0;
+//}
+
+// How to find the Simple Interest in c . 
+
+// #include<stdio.h>
+// int main ()
+// {
+//     float Principal,Rate,Time,SI;
+//     printf("Enter Principal : ");
+//     scanf("%f",&Principal);
+//     printf("Enter Rate : ");
+//     scanf("%f",&Rate);
+//     printf("Enter Time : ");
+//     scanf("%f",&Time);
+//     SI = (Principal*Rate*Time)/100;
+//     printf("Your simple interest is : %f",SI);
+//         return 0;
+// }
+
+// Use of ternary operater. 
+//#include<stdio.h>
+//int main(){
+//    int n;
+//    printf("Enter the Number : ");
+//    scanf("%d",&n);
+// Ternary Operator
+// formula (exp1 ? exp2 : exp3)
+// n%2==0 ? printf("Even Number") : printf("Odd Number");
+// if(n%2==0)
+// printf("Even Number");
+// else
+// printf("Odd Number");
+//    return 0;
+//}
+
+// //Take input percentage of a student and print the grade according to marks but with (&&) (||)
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("Enter the Percentage : ");
+//     scanf("%d",&n);
+//  if(n>80){
+//  printf("A Grade");
+//  }
+//  else if(n>60){
+//     printf("B Grade");
+//  }
+//  else if(n>40){
+//     printf("C Grade");
+//  }
+//  else 
+//  {
+//     printf("D Grade");
+//  }
+// }
