@@ -204,3 +204,20 @@
 //     return 0;
 // }
 
+// Q - 1 Find the odd and even number by taking input.
+
+// #include <stdio.h>
+// int main(){
+//     int x;
+//     printf("Enter the Number :");
+//     scanf("%d",&x);
+//     if (x%2==0){
+//         printf("This is a Even Number "); 
+//     }if(x%2!=0){
+//         printf("This is a odd number");
+//     }
+//     else{
+//         printf("This is a Odd Number ");
+//     }
+//     return 0;
+// }
